@@ -21,3 +21,5 @@ keys.forEach(key => key.addEventListener('transitionend', removeTransition)); //
 
 //adding event listener. It will listen to keydown!
 window.addEventListener('keydown', playSound);
+
+
