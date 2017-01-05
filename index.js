@@ -17,8 +17,7 @@ function removeTransition(e) {
 
 const keys = Array.from(document.querySelectorAll('.key'));
 //keys.addEventListener('transitionend', removeTransition);
-//if(!Array.prototype.forEach) {
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+keys.forEach(key => key.addEventListener('transitionend', removeTransition)); //transitionend not working here. but  working when putting all these code in html file under <script></script>
 
 //adding event listener. It will listen to keydown!
 window.addEventListener('keydown', playSound);
