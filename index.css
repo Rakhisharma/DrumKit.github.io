@@ -24,7 +24,8 @@ body,html {
 	font-size: 1.5rem;
 	padding: 1rem .5rem;
 	width: 10rem;
-	transition: all 1.0s ease;
+	transition: all .07s;
+/*	transition-end: .07s; */
 	text-align: center;
 	color: white;
 	background: rgba(0,0,0,0.4);
